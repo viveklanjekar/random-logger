@@ -7,13 +7,13 @@ do
    instruction=$(shuf -i 0-4 -n 1)
    d=`date -Iseconds`
    case "$instruction" in
-      "1") echo "ERROR vivek.lanjekar@gmail.com, vivek.lanjekar@hotmail in this execution."
+      "1") echo '{"name":"vivek","email":"vivek.lanjekar@gmail.com","message":"This is test message so plz dont take this seriosly , chill","jsonparser":"test"}'
       ;;
-      "2") echo "$d INFO vivek.lanjekar@gmail.com, vivek.lanjekar@hotmail takes the value and converts it to string."
+      "2") echo '{"name":"chaman","email":"chaman@gmail.com","message":"This is test message so plz dont take this seriosly , chill","jsonparser":"test"}'
       ;;
-      "3") echo "WARN vivek.lanjekar@gmail.com variable not in use."
+      "3") echo '{"name":"dhakkan","email":"dhakkan@gmail.com","message":"This is test message so plz dont take this seriosly , chill","jsonparser":"test"}'
       ;;
-      "4") echo "$d DEBUG vivek.lanjekar@gmail.com, vivek.lanjekar@hotmail first loop completed."
+      "4") echo '{"name":"chusela","email":"chusela@gmail.com","message":"This is test message so plz dont take this seriosly , chill","jsonparser":"test"}'
       ;;
    esac
 done
